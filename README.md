@@ -1,5 +1,7 @@
 # 🚨 CyberGuard SOC Platform
 
+A simple SIEM-like system built with FastAPI and React.
+
 CyberGuard is a mini Security Operations Center (SOC) platform designed to detect and monitor cyber attacks in real-time.
 
 ## 🔥 Features
@@ -15,10 +17,10 @@ CyberGuard is a mini Security Operations Center (SOC) platform designed to detec
 
 The system works as follows:
 
-1. Logs are sent to the backend API
-2. Detection engine analyzes incoming data
-3. If a threat is detected, it is stored in the database
-4. The frontend dashboard displays alerts in real-time
+1. Logs are sent to the backend API  
+2. Detection engine analyzes incoming data  
+3. If a threat is detected, it is stored in the database  
+4. The frontend dashboard displays alerts in real-time  
 
 ## 🛠️ Tech Stack
 
