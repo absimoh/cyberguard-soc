@@ -1,6 +1,8 @@
 # CyberGuard SOC Platform
 
-CyberGuard is a simple cybersecurity project that detects common attacks and displays them in a dashboard.
+A simple SIEM-like system built with FastAPI and React.
+
+CyberGuard is a mini Security Operations Center (SOC) platform designed to detect and monitor cyber attacks in real-time.
 
 ## Features
 
@@ -15,8 +17,9 @@ CyberGuard is a simple cybersecurity project that detects common attacks and dis
 - Backend: FastAPI (Python)  
 - Frontend: React (Vite)  
 - Database: SQLite  
+- Visualization: Recharts  
 
-## How to Run
+## Running the Project
 
 ### Backend
 
@@ -37,4 +40,3 @@ npm run dev
 ## Purpose
 
 This project is built for learning cybersecurity (Blue Team) and understanding how a simple SIEM system works.
-
