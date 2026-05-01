@@ -1,36 +1,40 @@
-# 🚨 CyberGuard SOC Platform
+# CyberGuard SOC Platform
 
-CyberGuard is a mini Security Operations Center (SOC) platform designed to detect and monitor cyber attacks in real-time.
+CyberGuard is a simple cybersecurity project that detects common attacks and displays them in a dashboard.
 
-## 🔥 Features
+## Features
 
-- SQL Injection detection
-- Brute Force attack detection
-- Real-time alerts dashboard
-- Attack classification (High / Critical)
-- Auto-refreshing frontend
-- Persistent storage using SQLite
+- SQL Injection detection  
+- Brute Force attack detection  
+- Real-time dashboard  
+- Attack visualization (charts)  
+- Data storage using SQLite  
 
-## 🧠 System Overview
+## Technologies Used
 
-The system works as follows:
+- Backend: FastAPI (Python)  
+- Frontend: React (Vite)  
+- Database: SQLite  
 
-1. Logs are sent to the backend API
-2. Detection engine analyzes incoming data
-3. If a threat is detected, it is stored in the database
-4. The frontend dashboard displays alerts in real-time
-
-## 🛠️ Tech Stack
-
-- Backend: FastAPI (Python)
-- Frontend: React (Vite)
-- Database: SQLite
-- Visualization: Recharts
-
-## ▶️ Running the Project
+## How to Run
 
 ### Backend
 
-```bash
-cd backend
-uvicorn app.main:app --reload
+cd backend  
+uvicorn app.main:app --reload  
+
+### Frontend
+
+cd frontend  
+npm install  
+npm run dev  
+
+## API Endpoints
+
+- POST /logs → send logs for detection  
+- GET /alerts → view detected alerts  
+
+## Purpose
+
+This project is built for learning cybersecurity (Blue Team) and understanding how a simple SIEM system works.
+
